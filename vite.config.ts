@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig, loadEnv, type ProxyOptions } from 'vite';
 
 const host = '127.0.0.1';
-const port = 8999;
+const port = 9021;
 
 function registryProxy(raw: string | undefined, fallback: string): ProxyOptions {
 	const url = new URL(raw?.trim() || fallback);

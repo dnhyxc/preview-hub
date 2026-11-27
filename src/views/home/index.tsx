@@ -103,7 +103,7 @@ export function Home() {
 				: `${onlineCount} / ${items.length} 在线`;
 
 	return (
-		<div className="relative flex h-full min-h-0 w-full flex-col bg-[#090b0e] font-sans text-[#f4f7f6] [background-image:radial-gradient(880px_420px_at_8%_-8%,rgba(45,212,191,0.16),transparent_62%),radial-gradient(640px_360px_at_100%_0%,rgba(125,211,252,0.08),transparent_58%)]">
+		<div className="relative flex h-full min-h-0 w-full flex-col bg-[#090b0e] font-sans text-[#f4f7f6] bg-[radial-gradient(880px_420px_at_8%_-8%,rgba(45,212,191,0.16),transparent_62%),radial-gradient(640px_360px_at_100%_0%,rgba(125,211,252,0.08),transparent_58%)]">
 			<header className="z-10 flex w-full max-w-5xl items-center justify-between self-center px-7 pt-[22px] mb-2">
 				<div className="flex items-center gap-2.5 font-semibold tracking-tight">
 					<span className="grid size-7 place-items-center rounded-lg bg-teal-400 text-teal-950">
