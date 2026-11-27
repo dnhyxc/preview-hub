@@ -4,7 +4,7 @@ micro-apps 预览门户。只做目录，不 loadRemote、不登录。
 
 ```bash
 pnpm install
-pnpm dev   # http://127.0.0.1:8999/
+pnpm dev   # http://127.0.0.1:9021/
 ```
 
 按访问环境读注册表，没有手动切换。地址写在 `.env`：
