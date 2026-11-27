@@ -1,0 +1,30 @@
+{
+	"name": "@dnhyxc-ai/preview-hub",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"publish": "dnhyxc-ci publish previewHub",
+		"deploy": "pnpm run build && pnpm run publish",
+		"restart": "npx dnhyxc-ci restart server -rsc 'pm2 restart server'"
+	},
+	"dependencies": {
+		"@radix-ui/react-scroll-area": "^1.2.10",
+		"lucide-react": "^1.82.0",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.1.18",
+		"@types/node": "^22.10.0",
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
+		"@vitejs/plugin-react": "^4.6.0",
+		"tailwindcss": "^4.1.18",
+		"typescript": "~5.8.3",
+		"vite": "^7.0.4"
+	}
+}

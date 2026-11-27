@@ -1,0 +1,24 @@
+{
+	"serverInfo": {
+		"host": "101.43.50.15",
+		"username": "root",
+		"port": "22"
+	},
+	"nginxInfo": {
+		"remoteFilePath": "/usr/local/nginx/conf",
+		"restartPath": "/usr/local/nginx/sbin"
+	},
+	"serviceInfo": {
+		"restartPath": "/usr/local/dnhyxc-ai/server"
+	},
+	"restartScript": "pm2 restart server",
+	"previewHub": {
+		"name": "preview-hub",
+		"localFilePath": {
+			"mac": "/Users/dnhyxc/Documents/code/micro-apps/preview-hub",
+			"windows": "E:\\code\\micro-apps\\preview-hub"
+		},
+		"remoteFilePath": "/usr/local/nginx/preview-hub",
+		"isServer": false
+	}
+}
